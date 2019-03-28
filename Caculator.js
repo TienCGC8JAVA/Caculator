@@ -12,7 +12,7 @@ function subtraction()
     document.write("Hiệu của 2 số là:" + Sub);
 }
 
-// console.log(); hiển thị trên console
+// console.log(); hiển thị trên console mà không hiển thị trên giao diện người dùng
 function multiplication()
 {
     let Mul = parseInt(document.getElementById("num1").value) * parseInt(document.getElementById("num2").value);
